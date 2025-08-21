@@ -7,7 +7,7 @@ NVR_LIST = [
 
 # 邮件配置 - 请根据实际情况修改
 EMAIL_CONFIG = {
-    "smtp_server": "smtp.163.com",      # 邮箱SMTP服务器
+    "smtp_server": "***.***.***",      # 邮箱SMTP服务器
     "smtp_port": 465,                   # 邮箱SSL端口(推荐)
     "smtp_username": "11111",           # 替换为你的邮箱
     "smtp_password": "1111111",         # 替换为邮箱授权码(非登录密码)
