@@ -1,7 +1,7 @@
 # ================== 配置项 ==================
 NVR_LIST = [
-    {"name": "前后门NVR", "ip": "1.1.1.1", "username": "admin", "password": "1111111"},
-    {"name": "楼层NVR2", "ip": "2.2.2.2", "username": "admin", "password": "1111111"},
+    {"name": "NVR1", "ip": "1.1.1.1", "username": "admin", "password": "1111111"},
+    {"name": "NVR2", "ip": "2.2.2.2", "username": "admin", "password": "1111111"},
     # 可以继续添加更多 NVR
 ]
 
