@@ -3,8 +3,7 @@ import xml.etree.ElementTree as ET
 from requests.auth import HTTPDigestAuth
 from datetime import datetime
 from config.settings import ENABLE_DEBUG
-# 添加导入
-from .time_checker import get_device_time  # 添加这行
+from .time_checker import get_device_time 
 
 def fetch_channels(nvr):
     url = f"http://{nvr['ip']}/ISAPI/ContentMgmt/InputProxy/channels"
